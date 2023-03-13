@@ -1,0 +1,41 @@
+def numbers(num1, num2):
+    sum = num1 + num2
+    return sum
+
+# calling function with two values
+result = numbers(5, 4)
+
+print('sum:', result)
+
+def sub_numbers(num1, num2):
+    difference = num1 - num2
+    return difference
+
+# calling function with two values 
+result = sub_numbers(5,4)
+print('difference: ', result)
+
+def sub_numbers(num1, num2):
+    product = num1 * num2
+    return product
+
+# calling function with two values 
+result = sub_numbers(5,4)
+print('product: ', result)
+
+def sub_numbers(num1, num2):
+    division = num1 / num2
+    return division
+
+# calling function with two values 
+result = sub_numbers(8,4)
+print('division: ', result)
+
+
+def sub_numbers(num1, num2):
+    modulus = num1 % num2
+    return modulus
+
+# calling function with two values 
+result = sub_numbers(5,4)
+print('modulus: ', result)
